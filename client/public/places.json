@@ -1,0 +1,1001 @@
+[
+    {
+        "title": "Lavaux Vineyard Rooms",
+        "description": "Stay amidst terraced vineyards overlooking Lake Geneva, ideal for wine lovers.\n",
+        "country": "Switzerland",
+        "location": "Lavaux",
+        "price": 1599,
+        "photos": [
+            "https://media.istockphoto.com/id/1489188258/photo/wine-cellars-and-vineyard-in-palava-region-southern-moravia-czech-republic.jpg?s=612x612&w=0&k=20&c=2S-VXuHneiOYXrfImAHulX4JXc30XejOfrjM7uZCDXY=",
+            "https://media.istockphoto.com/id/1289814864/photo/shabo-winery-grape-garden-in-ukraine.jpg?s=612x612&w=0&k=20&c=dECD9vtTLa3LGc_YH3x9DsSYiWrU6UKVM6PST_pGpNQ="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 8,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "reviews": [],
+        "averageRating": 4
+    },
+    {
+        "reviews": [],
+        "index": 25,
+        "title": "Historic Townhouse",
+        "description": "Charming historic townhouse in a quiet neighborhood.",
+        "country": "USA",
+        "location": "Boston, Massachusetts",
+        "price": 1599,
+        "photos": [
+            "https://media.istockphoto.com/id/1089175298/photo/historic-salem-massachusetts.jpg?s=612x612&w=0&k=20&c=jA3P486QWL7pQ6XENA2S5Li8XUGcGVEF1-YOmP6OU78=",
+            "https://media.istockphoto.com/id/1628581451/photo/beautiful-sunrise-over-canal-in-copenhagen-denmark-colorful-buildings-and-boats-reflect-in.jpg?s=612x612&w=0&k=20&c=onbd-IY55KPBThfLppbPnICAYIgRGFYnIX9ZlPhqTJM="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.7
+    },
+    {
+        "title": "Wilderness Cabin Retreat",
+        "description": "Tucked away in the heart of the Cairngorms, this rustic cabin offers a secluded escape surrounded by ancient forests and breathtaking mountain views",
+        "country": "UK",
+        "location": "Cairngorms National Park",
+        "price": 1700,
+        "photos": [
+            "https://media.istockphoto.com/id/1158872139/photo/hiking-trail-in-cairngorms-national-park-scotland-uk.jpg?s=612x612&w=0&k=20&c=hyzpVXiqw_XV1805r7FkhkhPFgU5X-EPoebYqfn4auU=",
+            "https://media.istockphoto.com/id/1159423052/photo/hiking-trail-in-cairngorms-national-park-aberdeenshire-scotland-uk.jpg?s=612x612&w=0&k=20&c=F8PCa50bX0FDrzuNuUNb_gvCbtg8f9gZlo4gukgB1X0="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 15,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "reviews": [],
+        "averageRating": 5
+    },
+    {
+        "reviews": [],
+        "index": 15,
+        "title": "Romantic Treehouse",
+        "description": "Perfect romantic getaway in a treehouse.",
+        "country": "UAE",
+        "location": "Al Hayer Forest",
+        "price": 1790,
+        "photos": [
+            "https://media.istockphoto.com/id/1503226956/photo/young-couple-traveler-enjoying-and-looking-beautiful-sunrise-at-the-tree-house-in-nusa-penida.jpg?s=612x612&w=0&k=20&c=-dWbotHsN_mG6ISU7Ryi6r7fTq4tW2YjaGMjMBEt9FI=",
+            "https://media.istockphoto.com/id/1439017397/photo/outnabout-treehouse-treesort-near-cave-junction-oregon.jpg?s=612x612&w=0&k=20&c=Xt2pnpR6vt2T1T7UPVs9f1s0i4_R_p1H-mZmqLImlaY="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 2,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.9
+    },
+    {
+        "reviews": [],
+        "index": 12,
+        "title": "Luxury Penthouse",
+        "description": "Enjoy breathtaking views from this luxury penthouse.",
+        "country": "UAE",
+        "location": "Dubai, UAE",
+        "price": 1799,
+        "photos": [
+            "https://media.istockphoto.com/id/1127417417/photo/modern-luxurious-bedroom-in-a-seaside-villa-with-black-stone-wall.jpg?s=612x612&w=0&k=20&c=xmT4JSzLQtztPcVgQXI-3BX2BPBEutTi8RCt1f_suN0=",
+            "https://media.istockphoto.com/id/591404458/photo/modern-contemporary-bedroom.jpg?s=612x612&w=0&k=20&c=UvZBiVjnl5bKnqCbcFMwGF-w3ZA5mj4NARJOcU7-qXg="
+        ],
+        "placeTypes": "rooms",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "averageRating": 4.9
+    },
+    {
+        "reviews": [],
+        "index": 18,
+        "title": "Urban Loft",
+        "description": "Modern loft in the heart of the city.",
+        "country": "THAILAND",
+        "location": "Chicago, Illinois",
+        "price": 1880,
+        "photos": [
+            "https://media.istockphoto.com/id/1127580796/photo/3d-illustration-of-a-new-modern-city-loft-apartment.jpg?s=612x612&w=0&k=20&c=fnA4265CyfboDls6iEP8azUGyDxlPgnno9EHkORu-0w=",
+            "https://media.istockphoto.com/id/1138529881/photo/cozy-loft-apartment-interior-in-downtown-los-angeles.jpg?s=612x612&w=0&k=20&c=eUk3DwQhxjbGtYw_2rJbo0MvnfsrxR2xB7ga2TCJhqk="
+        ],
+        "placeTypes": "rooms",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "averageRating": 4.5
+    },
+    {
+        "reviews": [],
+        "index": 13,
+        "title": "Rustic Farm Stay",
+        "description": "Get a taste of farm life in this rustic stay.",
+        "country": "UAE",
+        "location": "Lancaster, Pennsylvania",
+        "price": 1930,
+        "photos": [
+            "https://media.istockphoto.com/id/915461428/photo/people-walking-or-taking-pictures-outside-sight-sound-theaters-in-lancaster.jpg?s=612x612&w=0&k=20&c=YGE-AnOTxQlp3E4bo1yNF5Qxwnia5zLqtwR0LfHMDls=",
+            "https://media.istockphoto.com/id/863542630/photo/summer-sunset-with-a-red-barn-in-rural-montana-and-rocky-mountains.jpg?s=612x612&w=0&k=20&c=c0-_YxwHBEbwL0SpzPrF_mWGlEtX2GQzPaezpn_o0EY="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "averageRating": 4.6
+    },
+    {
+        "reviews": [],
+        "index": 19,
+        "title": "Luxury Tent",
+        "description": "Experience glamping in a luxury tent.",
+        "country": "AUSTRALIA",
+        "location": "Moab, Utah",
+        "price": 1990,
+        "photos": [
+            "https://media.istockphoto.com/id/1280006515/photo/glamping-interior.jpg?s=612x612&w=0&k=20&c=gNEyQs1obv1K1aau2zNqlQXXWjI8cJHCjgKmAgaPH78=",
+            "https://media.istockphoto.com/id/183863559/photo/luxury-safari-bedroom.jpg?s=612x612&w=0&k=20&c=oQUmNzM43TqIgFIjIp8mbySROnYFE6nTbD7tZ1tCoBU="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.5
+    },
+    {
+        "title": "Explore the Charm of Australia's Countryside",
+        "description": "Australia's Bowral, in the Southern Highlands, offers a serene escape with its rolling hills, charming gardens, historic architecture, and cool-climate wines.",
+        "country": "AUSTRALIA",
+        "location": "Bowral",
+        "price": 1998,
+        "photos": [
+            "https://media.istockphoto.com/id/2039119842/photo/the-view-of-the-garden-in-the-st-judes-bowral-anglican-church-in-bowral-in-the-autumn.jpg?s=612x612&w=0&k=20&c=ISi8aG57Qm4O_LpnzdlLrftQTiVNToQy6b5Kf-A78ds=",
+            "https://media.istockphoto.com/id/1393744327/photo/panoramic-views-of-bowral-in-nsw-southern-highlands-australia-lovely-sky.jpg?s=612x612&w=0&k=20&c=yHM18MftKH83MIytSxn9UWLvGcRZhMdM-eLJFR3h8QY="
+        ],
+        "placeTypes": "countryside",
+        "totalGuests": 8,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "reviews": [],
+        "averageRating": 4
+    },
+    {
+        "reviews": [],
+        "index": 17,
+        "title": "Desert Oasis",
+        "description": "An oasis in the desert for a serene experience.",
+        "country": "UAE",
+        "location": "Phoenix, Arizona",
+        "price": 2150,
+        "photos": [
+            "https://media.istockphoto.com/id/547521820/photo/oasis-huachina-village-in-peru.jpg?s=612x612&w=0&k=20&c=CZOrLpW2-aaboFM5zrL6xVigrWCxGXR3rFWjmmm1_Dw=",
+            "https://media.istockphoto.com/id/1397179740/photo/farm-worker-walking-to-agricultural-fields-in-al-ula-oasis.jpg?s=612x612&w=0&k=20&c=0YsWibTzo58FnHxGUlx2NTb00VsS8eqJasnmCWpV_x8="
+        ],
+        "placeTypes": "countryside",
+        "totalGuests": 5,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.6
+    },
+    {
+        "reviews": [],
+        "index": 5,
+        "title": "Beachside Bungalow",
+        "description": "A cozy bungalow right on the beach.",
+        "country": "USA",
+        "location": "Miami, Florida",
+        "price": 2199,
+        "photos": [
+            "https://media.istockphoto.com/id/504645942/photo/large-luxury-bungalows-on-the-islands.jpg?s=612x612&w=0&k=20&c=ToIcm7h998w0HI6ZWn4dKp17BfDgzJ4g-JMidgED7gc=",
+            "https://media.istockphoto.com/id/160906153/photo/cafe-and-swimming-pool-at-a-tropical-beach.jpg?s=612x612&w=0&k=20&c=CmVVm-xyLbAvt3PcwYvo_nN5sw-YrJtG55tD7GsX1rc="
+        ],
+        "placeTypes": "beachfront",
+        "totalGuests": 3,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.4
+    },
+    {
+        "reviews": [],
+        "index": 41,
+        "title": "Coastal Cottage Retreat",
+        "description": "Quaint cottage retreat steps away from the beach.",
+        "country": "THAILAND",
+        "location": "Phuket",
+        "price": 2222,
+        "photos": [
+            "https://media.istockphoto.com/id/1475846187/photo/aerial-view-of-sea-kayaking-near-idyllic-beach.jpg?s=612x612&w=0&k=20&c=omzgHauiJlpETlCIy8ffu0V1kGx81OSjH3rihxETH3U=",
+            "https://media.istockphoto.com/id/667071670/photo/bixby-bridge-and-pacific-coast-highway-at-sunset.jpg?s=612x612&w=0&k=20&c=o0h4hxoxOJSXb3f6RyCCE0gQmnIjI2X5apdLIL-7iAY="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 3,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.6
+    },
+    {
+        "reviews": [],
+        "index": 50,
+        "title": "Riverside Cabin Retreat",
+        "description": "Cozy cabin retreat overlooking a peaceful river.",
+        "country": "UAE",
+        "location": "Miracle Garden",
+        "price": 2440,
+        "photos": [
+            "https://media.istockphoto.com/id/622917326/photo/traditional-abra-boat-in-dubai-creek.jpg?s=612x612&w=0&k=20&c=gOSQUCqqoFiKwJkQUKy37U7QYfb13KwPRxybP0a5LGg=",
+            "https://media.istockphoto.com/id/672600730/photo/miracle-garden-in-dubai.jpg?s=612x612&w=0&k=20&c=ieonTr4Mo2QrEupDsjJUD-9A32MPcYbByYc5ICarw8M="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "averageRating": 4.7
+    },
+    {
+        "reviews": [],
+        "index": 49,
+        "title": "Chic City View Loft",
+        "description": "Stylish loft with stunning city views.",
+        "country": "THAILAND",
+        "location": "Krabi",
+        "price": 2450,
+        "photos": [
+            "https://media.istockphoto.com/id/1688977536/photo/woman-kayaking-in-the-lagoon-in-jungles.jpg?s=612x612&w=0&k=20&c=1n3gZCKtacoDjfIRDT5ijK-t76S8ESQP12ogiKCLwp0=",
+            "https://media.istockphoto.com/id/1533914321/photo/women-on-a-swing-at-the-tropical-lagoon-of-koh-loa-lading-krabi-thailand-part-of-koh-hong.jpg?s=612x612&w=0&k=20&c=xCA_QHpJZT05U6jUc4_HPKcOCmVcTaR76wW0OciTTKU="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 20,
+        "title": "Historic Downtown Apartment",
+        "description": "Apartment with historic charm in the downtown area.",
+        "country": "USA",
+        "location": "Boston, Massachusetts",
+        "price": 2520,
+        "photos": [
+            "https://media.istockphoto.com/id/1424668659/photo/aerial-view-of-barcelona-city-skyline-and-sagrada-familia-cathedral-at-sunrise-eixample.jpg?s=612x612&w=0&k=20&c=yoNtfD6CoGVnFKAcshXdILacEGUjONTlmFgEjM1ZKUw=",
+            "https://media.istockphoto.com/id/1870200825/photo/bell-tower-of-the-valencia-cathedral.jpg?s=612x612&w=0&k=20&c=h1KP6HbffjD7Mmmgej3kw28qxONirK6f-qhuRm1DQKw="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 2,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.4
+    },
+    {
+        "reviews": [],
+        "index": 34,
+        "title": "Lakefront Log Cabin",
+        "description": "Rustic log cabin with stunning lake views.",
+        "country": "GREECE",
+        "location": "Lake George, New York",
+        "price": 2700,
+        "photos": [
+            "https://media.istockphoto.com/id/1337872215/photo/in-the-harbor-at-lake-george.jpg?s=612x612&w=0&k=20&c=gjzSpSOk42L5UuSS4x4sJ7onNQOj8RwL0K94Lwy4Y-M=",
+            "https://media.istockphoto.com/id/1261825231/photo/lake-george-stand-up-paddle-boards.jpg?s=612x612&w=0&k=20&c=OygGnR5BZRWTr3Ut7evmi_dN_TTTl_-4uVQxkDYKgG4="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "averageRating": 4.7
+    },
+    {
+        "reviews": [],
+        "index": 28,
+        "title": "Coastal Cottage Getaway",
+        "description": "Charming cottage near the coast with serene ocean views.",
+        "country": "UK",
+        "location": "Cape Cod, Massachusetts",
+        "price": 2920,
+        "photos": [
+            "https://media.istockphoto.com/id/465466792/photo/village.jpg?s=612x612&w=0&k=20&c=j-5HyGhmOQEM7f_GUGWI9_BP5eGVk2iR1NsDkYQbKRQ=",
+            "https://media.istockphoto.com/id/1550114537/photo/south-downs-landscape.jpg?s=612x612&w=0&k=20&c=_cpeP8Cm3fwnFKLKlqR-O_57dUd8-1MaJaN85pnW5a8="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 3,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.6
+    },
+    {
+        "reviews": [],
+        "index": 39,
+        "title": "Secluded Beachfront Retreat",
+        "description": "Private retreat with direct access to a secluded beach.",
+        "country": "USA",
+        "location": "Key West, Florida",
+        "price": 2950,
+        "photos": [
+            "https://media.istockphoto.com/id/1281989839/photo/cruise-ship-view-of-the-mallery-square-pier-at-key-west-florida.jpg?s=612x612&w=0&k=20&c=cSzdpMfOQlqYvkVG4mfqP2VdGDFXWo_sPQgxRPNWUNQ=",
+            "https://media.istockphoto.com/id/515583277/photo/key-west-street.jpg?s=612x612&w=0&k=20&c=s1qmzLObEmYm3qTcoe5itIJgw4zVAdMOpBQ0oXNMisc="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.9
+    },
+    {
+        "title": "Lakeview",
+        "description": "est Lakeview with direct access to a Hotelroom",
+        "country": "THAILAND",
+        "location": "Ohaio CIty",
+        "price": 3197,
+        "photos": [
+            "https://media.istockphoto.com/id/169937668/photo/calm-evening-at-emerald-lake.jpg?s=612x612&w=0&k=20&c=PsbH-9Jtcc-HcJDHikyN085ZMTKT9B978i68kCRW-tU=",
+            "https://media.istockphoto.com/id/1201758013/photo/wood-terrace-with-beautiful-lake-and-mountain-view-3d-render.jpg?s=612x612&w=0&k=20&c=qYq5XlACS2jdP86EszXeISiyC4DBu-BC2VgxGUMra28=",
+            "https://media.istockphoto.com/id/1450047072/photo/woman-sitting-on-the-background-of-lago-di-braies-in-winter.jpg?s=612x612&w=0&k=20&c=2QgFOJ-YXQdQqj0LFgSq3tH5bpahhbdQooIYzj0tiEU="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 8,
+        "bedrooms": 4,
+        "bathrooms": 6,
+        "reviews": [],
+        "averageRating": 0
+    },
+    {
+        "reviews": [],
+        "index": 37,
+        "title": "Sunny Coastal Cottage",
+        "description": "Bright and sunny cottage near the coast.",
+        "country": "AUSTRALIA",
+        "location": "Santa Barbara, California",
+        "price": 3240,
+        "photos": [
+            "https://media.istockphoto.com/id/2149066504/photo/cottages-by-the-sea-with-a-wonderful-view-over-the-archipelago.jpg?s=612x612&w=0&k=20&c=k2vp_x3G_WGR5CS79NgOGydAUbXTsCCKP9LN6aBwEt0=",
+            "https://media.istockphoto.com/id/2158246747/photo/boats-moored-in-the-estuary-of-salcombe-in-devon.jpg?s=612x612&w=0&k=20&c=t4Ij4HPtOF3BUJy7g4eb5ilpaluaQnfn0QNiN-ThueE="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 3,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.7
+    },
+    {
+        "reviews": [],
+        "index": 11,
+        "title": "Riverfront Apartment",
+        "description": "Modern apartment with stunning river views.",
+        "country": "FRANCE",
+        "location": "Paris, France",
+        "price": 3250,
+        "photos": [
+            "https://media.istockphoto.com/id/1039630692/photo/san-juan-de-gaztelugatxe-at-sunset.jpg?s=612x612&w=0&k=20&c=PViFVcrG62NRn521fGNQ3rMEHsSgJufZRO1NKaTsDmo=",
+            "https://media.istockphoto.com/id/1202455118/photo/chicago-skyline-aerial-drone-view-from-above-city-of-chicago-downtown-skyscrapers-and-lake.jpg?s=612x612&w=0&k=20&c=BNOwfvF11Q__0ecB5DDSQ1Ob7y4wlW5HJPEHx3e4-UQ="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.5
+    },
+    {
+        "reviews": [],
+        "index": 36,
+        "title": "Tranquil Mountain View Retreat",
+        "description": "Peaceful retreat with stunning mountain vistas.",
+        "country": "AUSTRALIA",
+        "location": "Breckenridge, Colorado",
+        "price": 3270,
+        "photos": [
+            "https://media.istockphoto.com/id/1127283516/photo/villefranche-sur-mer-french-riviera-coast.jpg?s=612x612&w=0&k=20&c=Xkvgva5yANfx2dQfKnd48QEpKtkt3Gnbjq47xs-q5ug=",
+            "https://media.istockphoto.com/id/1038870630/photo/woman-standing-and-looking-at-lago-di-carezza-in-dolomites.jpg?s=612x612&w=0&k=20&c=sRbpFCJ-odpl2cQetrZaxlxL0oqAmxcjDEGN46kmGJ0="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.9
+    },
+    {
+        "reviews": [],
+        "index": 6,
+        "title": "Historic Castle Stay",
+        "description": "Stay in a historic castle and feel like royalty.",
+        "country": "UK",
+        "location": "Edinburgh, Scotland",
+        "price": 3299,
+        "photos": [
+            "https://media.istockphoto.com/id/492959422/photo/dunluce-castle.jpg?s=612x612&w=0&k=20&c=xSSiEv8PpCSQKXdOxg4r82QiMk7doXbrBD-SrZkxWWY=",
+            "https://media.istockphoto.com/id/525739804/photo/kilchurn-castle.jpg?s=612x612&w=0&k=20&c=RnM0zGlVOEEumg_lk57P7aoWXhv9kiesM6oR_rKuDcE="
+        ],
+        "placeTypes": "castles",
+        "totalGuests": 10,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "averageRating": 4.9
+    },
+    {
+        "reviews": [],
+        "index": 26,
+        "title": "Mountain Chalet Retreat",
+        "description": "Cozy chalet with breathtaking mountain views.",
+        "country": "USA",
+        "location": "Aspen, Colorado",
+        "price": 3300,
+        "photos": [
+            "https://media.istockphoto.com/id/1796437070/photo/idyllic-winter-scenery.jpg?s=612x612&w=0&k=20&c=l826hcjAFZ5KeekAc5R2MtnUR3cogeoUjRgYnOCnfqM=",
+            "https://media.istockphoto.com/id/1135078485/photo/idyllic-mountain-landscape-in-the-alps-mountain-chalet-meadows-and-blue-sky.jpg?s=612x612&w=0&k=20&c=nAnshqU97tACV8C1ZKlAQAUTiyW-4ES_bPN6Icmik3U="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 5,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.9
+    },
+    {
+        "title": "Best views In Appartment",
+        "description": "Appartment in the CIty Scape, best view",
+        "country": "FRANCE",
+        "location": "Paris",
+        "price": 3399,
+        "photos": [
+            "https://media.istockphoto.com/id/1438012292/photo/aerial-bayview-ave-and-rosedale-in-autumn-toronto-canada.jpg?s=612x612&w=0&k=20&c=nO1zJXeETKa_e664oCCjFQ2yi2omPRRRh0XPQwbG1cU=",
+            "https://media.istockphoto.com/id/1450326337/photo/top-down-aerial-view-of-cars-driving-through-intersection-at-lisbon.jpg?s=612x612&w=0&k=20&c=gvhub1JIw4VMf9EFGZDF3pTSUTirgIKacvN2tvw9Qqc="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 12,
+        "bedrooms": 6,
+        "bathrooms": 6,
+        "reviews": [],
+        "averageRating": 0
+    },
+    {
+        "reviews": [],
+        "index": 21,
+        "title": "Mediterranean Villa",
+        "description": "Beautiful villa with Mediterranean charm.",
+        "country": "FRANCE",
+        "location": "Nice, France",
+        "price": 3450,
+        "photos": [
+            "https://media.istockphoto.com/id/1405967253/photo/luxury-beach-sea-view-hotel-and-resort-santorini-style-3d-rendering.jpg?s=612x612&w=0&k=20&c=7T3CyJWl24xNGgf4Kf2-TUJKSEen5XmwdgDUk8UgFKk=",
+            "https://media.istockphoto.com/id/915665092/photo/private-swimming-pool-and-patio-area.jpg?s=612x612&w=0&k=20&c=1peyf85P_A2nhbwTdnnCWHK8isBNWwRFLzBsWmanaMI="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 30,
+        "title": "Luxury Lakeside Villa",
+        "description": "Spacious villa overlooking a serene lake.",
+        "country": "UK",
+        "location": "Lake Tahoe, Nevada",
+        "price": 3500,
+        "photos": [
+            "https://media.istockphoto.com/id/2150478633/photo/twilight-serenity-at-lakeside-town.jpg?s=612x612&w=0&k=20&c=lFlpmdt8O7ZgeJIJpZ1KV9aQQMu-LrTmkB-VTjXKyWo=",
+            "https://media.istockphoto.com/id/2156706751/photo/beautiful-wildlife-reserve-lakeside-forest-landscape.jpg?s=612x612&w=0&k=20&c=ONlWirSDx-0JkGlSBfeXyXWS7lkjG8nNvHx7flSWG5Q="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 8,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "averageRating": 5
+    },
+    {
+        "reviews": [],
+        "index": 16,
+        "title": "Lake House Escape",
+        "description": "Beautiful lake house for family vacations.",
+        "country": "GREECE",
+        "location": "Lake Placid, New York",
+        "price": 3669,
+        "photos": [
+            "https://media.istockphoto.com/id/108219206/photo/log-cabin-hidden-in-the-trees-by-the-lake-ohara-in-canada.jpg?s=612x612&w=0&k=20&c=3rt_fpgh6Be9f2M4GLoGDSteHA4BuEIV9fTiShPJWoM=",
+            "https://media.istockphoto.com/id/94323282/photo/lakeshore-lodge.jpg?s=612x612&w=0&k=20&c=sG5pe1UfTIEk3fjCkSu-WsBX2Gt8_crUx-cmkdxpkts="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.7
+    },
+    {
+        "reviews": [],
+        "index": 14,
+        "title": "Elegant Beach House",
+        "description": "Modern beach house with all amenities.",
+        "country": "AUSTRALIA",
+        "location": "Sydney, Australia",
+        "price": 3675,
+        "photos": [
+            "https://media.istockphoto.com/id/1249282824/photo/outdoor-patio-with-living-and-eating-area.jpg?s=612x612&w=0&k=20&c=VfB6LxCYxcIFYoNlHRnNzQ6IvBa1a5j8IO5KZzv7_60=",
+            "https://media.istockphoto.com/id/1424381479/photo/3d-renders-of-luxurious-house-along-the-sea.jpg?s=612x612&w=0&k=20&c=Ol_FeNrk_4GhclzwTL9oUhegqP3xq-d9QjpuwA2PaZw="
+        ],
+        "placeTypes": "beachfront",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 42,
+        "title": "Downtown Urban Retreat",
+        "description": "Chic retreat in the heart of downtown.",
+        "country": "FRANCE",
+        "location": "Bordeaux",
+        "price": 3700,
+        "photos": [
+            "https://media.istockphoto.com/id/1038943424/photo/scenic-view-of-lago-di-braies-in-dolomites.jpg?s=612x612&w=0&k=20&c=oSY1vTxXdreWY_h9ny4pv1DCPQHIeuBVZiUFmcaFTYk=",
+            "https://media.istockphoto.com/id/1182395478/photo/chamonix-and-mont-blanc-mountain-range-at-sunny-day-france.jpg?s=612x612&w=0&k=20&c=JVgtivSqYM-57x4a4-akS3owC_GmkFj0MM23JlHg7PQ="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 3,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 43,
+        "title": "Secluded Mountain Cabin",
+        "description": "Private cabin retreat nestled in the mountains.",
+        "country": "USA",
+        "location": "Asheville, North Carolina",
+        "price": 3950,
+        "photos": [
+            "https://media.istockphoto.com/id/959786234/photo/sea-cliff-bridge.jpg?s=612x612&w=0&k=20&c=qGQ6eK1YZLBKu0q2d5nLo7Uu8e-jnPoth37szminxoI=",
+            "https://media.istockphoto.com/id/1239827155/photo/south-port-beach-boardwalk-at-sunset.jpg?s=612x612&w=0&k=20&c=Wgxv0z34tktKatjQrcMsQIdOnpaOLyRRMWCVhfC3M4M="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "averageRating": 4.7
+    },
+    {
+        "reviews": [],
+        "index": 9,
+        "title": "Forest Camping Site",
+        "description": "Enjoy nature at its best at this forest camping site.",
+        "country": "THAILAND",
+        "location": "Yosemite National Park, California",
+        "price": 3990,
+        "photos": [
+            "https://media.istockphoto.com/id/1377841262/photo/the-beautiful-scenery-of-a-tent-in-a-pine-tree-forest-at-pang-oung-mae-hong-son-province.jpg?s=612x612&w=0&k=20&c=1JvDx-16zTIeytdcC-Fa27nVJ_8SveP-omNKKlUJ-lQ=",
+            "https://media.istockphoto.com/id/1059448246/photo/camping-life.jpg?s=612x612&w=0&k=20&c=pgsaiW-sEsnJ4BHmVKOiuWIJohneW__BRYEWk1EjRmA="
+        ],
+        "placeTypes": "camp",
+        "totalGuests": 8,
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "averageRating": 4.2
+    },
+    {
+        "title": "Grindelwald Mountain Lodge",
+        "description": "Rustic lodge nestled in the Alps, offering breathtaking views and outdoor adventures.\n",
+        "country": "Switzerland",
+        "location": "Grindelwald",
+        "price": 3998,
+        "photos": [
+            "https://media.istockphoto.com/id/1422894399/photo/mountain-hut-in-grindelwald.jpg?s=612x612&w=0&k=20&c=OhrApyOTJpULOepLT8eVAXDb2cnBHqtGK9WawTv1Xe8=",
+            "https://media.istockphoto.com/id/1267192001/photo/hotel-bellevue-des-alpes-at-kleine-scheidegg-with-tourists-and-eiger-north-face-in-summer.jpg?s=612x612&w=0&k=20&c=YC2wXwDdlsZ_EQ7Nn12tPzrjiFgiU6O2JXYEZ3HOtOE="
+        ],
+        "placeTypes": "countryside",
+        "totalGuests": 6,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "reviews": [],
+        "averageRating": 5
+    },
+    {
+        "reviews": [],
+        "index": 3,
+        "title": "Country Farmhouse",
+        "description": "Experience country living in a traditional farmhouse.",
+        "country": "THAILAND",
+        "location": "Nashville, Tennessee",
+        "price": 3999,
+        "photos": [
+            "https://media.istockphoto.com/id/1284634579/photo/sunrise-at-the-farmhouse.jpg?s=612x612&w=0&k=20&c=0DONWjrDi2DDk6_f5h4fhpyahiLUe_-TjhFkO-GCQhY=",
+            "https://media.istockphoto.com/id/170006998/photo/rural-scene-in-sweden.jpg?s=612x612&w=0&k=20&c=Xdk1Jyk8etZKYIRhagg2Er2oZKqBKjI9k1fKyDEsBf8="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.7
+    },
+    {
+        "reviews": [],
+        "index": 35,
+        "title": "Cityscape Penthouse",
+        "description": "Luxury penthouse with panoramic city views.",
+        "country": "AUSTRALIA",
+        "location": "Chicago, Illinois",
+        "price": 4000,
+        "photos": [
+            "https://media.istockphoto.com/id/590299316/photo/south-beach-from-above.jpg?s=612x612&w=0&k=20&c=JMnTCJdJ4ZKPgl-Ksq8r3pI5mu97BVqRTYr78KaQPLQ=",
+            "https://media.istockphoto.com/id/886494832/photo/above-view-of-happy-friends-relaxing-on-a-penthouse-balcony.jpg?s=612x612&w=0&k=20&c=td4V7ZKggODflN0nm54Xftn3bXJwAlh354nhex5q0Cg="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 10,
+        "title": "City Center Room",
+        "description": "Conveniently located room in the city center.",
+        "country": "USA",
+        "location": "New York, New York",
+        "price": 4150,
+        "photos": [
+            "https://media.istockphoto.com/id/1405333027/photo/interior-of-an-open-plan-office-space.jpg?s=612x612&w=0&k=20&c=SWMjr9JHs-ql7hvkHvygH1kpRQn60JoxLzWbK-Gn6Kw=",
+            "https://media.istockphoto.com/id/484678754/photo/panoramic-conference-room-in-modern-office.jpg?s=612x612&w=0&k=20&c=X1vqtdh5LSZkPSVVp7PtEdjcHOP6Mf85IrV1NUHFvoU="
+        ],
+        "placeTypes": "rooms",
+        "totalGuests": 2,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.3
+    },
+    {
+        "reviews": [],
+        "index": 38,
+        "title": "Urban Chic Apartment",
+        "description": "Stylish apartment in the heart of a vibrant city.",
+        "country": "FRANCE",
+        "location": "Los Angeles, California",
+        "price": 4280,
+        "photos": [
+            "https://media.istockphoto.com/id/1367954158/photo/residential-district-with-luxury-villas-walking-path-and-palm-trees.jpg?s=612x612&w=0&k=20&c=jN_Wvd5rM9m4hnHO724DFxEeSuKknzM0dWKZY9Hp118=",
+            "https://media.istockphoto.com/id/1393537665/photo/modern-townhouse-design.jpg?s=612x612&w=0&k=20&c=vgQesOXDRzz0UfOZxmUtE-rFe75YgA9GvkKS8eeeumE="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 2,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.7
+    },
+    {
+        "reviews": [],
+        "index": 31,
+        "title": "Charming Mountain Lodge",
+        "description": "A cozy lodge nestled in the mountains.",
+        "country": "THAILAND",
+        "location": "Jackson Hole, Wyoming",
+        "price": 4350,
+        "photos": [
+            "https://media.istockphoto.com/id/1455190905/photo/outdoor-chairs-by-a-lake-with-a-mountain-as-a-backdrop-in-jackson-wyoming-usa.jpg?s=612x612&w=0&k=20&c=XWlCJWZVFd5-gEnVG8XEhreZjf7HZCtK67avPiyIja0=",
+            "https://media.istockphoto.com/id/1362706212/photo/luxury-tourist-hotel-with-view-of-majestic-kailash-himalaya-mountain-range-at-kalpa-himachal.jpg?s=612x612&w=0&k=20&c=Q8360DQyInocNpkXepYn8vYqTIFDq9kx-Ex92W-F6xo="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 27,
+        "title": "Elegant Beachfront Condo",
+        "description": "Luxurious condo with direct access to the beach.",
+        "country": "UK",
+        "location": "Miami Beach, Florida",
+        "price": 4900,
+        "photos": [
+            "https://media.istockphoto.com/id/1344940798/photo/3d-rendering-of-modern-house-in-luxurious-style-by-the-sea-or-ocean.jpg?s=612x612&w=0&k=20&c=CK4CEE-gLYgjOLWWaaHQjLNRiUMFH9kvc4udu323vU4=",
+            "https://media.istockphoto.com/id/1398980284/photo/3d-rendering-of-modern-house-with-wood-plank-facade-by-the-sea-or-ocean.jpg?s=612x612&w=0&k=20&c=_BfVIaemEEUlKuVXRqgAFrU1Zf0T1kSwoLKjrKxXwX0="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 24,
+        "title": "Seaside Villa Paradise",
+        "description": "Luxurious villa overlooking the ocean with private beach access.",
+        "country": "GREECE",
+        "location": "Maui, Hawaii",
+        "price": 4999,
+        "photos": [
+            "https://media.istockphoto.com/id/935732254/photo/cocktails-by-the-pool-with-beach-in-the-background.jpg?s=612x612&w=0&k=20&c=RwE-UgmmaprTxexiIUSFHCqxv6uE4pov_e-kzbmNXzw=",
+            "https://media.istockphoto.com/id/1213840216/photo/luxury-travel-romantic-couple-in-beach-hotel.jpg?s=612x612&w=0&k=20&c=1m4GfnUTJV4zZEDr_p1OYVQhmwM5F30MrbUhzYVacko="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 6,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "averageRating": 5
+    },
+    {
+        "reviews": [],
+        "index": 32,
+        "title": "Seaside Retreat Bungalow",
+        "description": "Tranquil bungalow steps away from the beach.",
+        "country": "THAILAND",
+        "location": "Hilton Head Island, South Carolina",
+        "price": 5200,
+        "photos": [
+            "https://media.istockphoto.com/id/157525171/photo/villa-sunrise.jpg?s=612x612&w=0&k=20&c=l5eQDGar2pVuGOsuBoNYyUsPs1BPZ4_JmPMubVkC-vE=",
+            "https://media.istockphoto.com/id/1299305938/photo/drone-view-of-luxury-bungalows-in-the-maldives-man-on-the-stairs-arms-outstretched.jpg?s=612x612&w=0&k=20&c=PtW2fAcb3zX3NpstPy6kA22Z0vRRS-iVgqQFtUSNjm4="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 3,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.6
+    },
+    {
+        "reviews": [],
+        "index": 4,
+        "title": "Mountain Hideaway",
+        "description": "Escape to a secluded mountain hideaway with stunning views.",
+        "country": "France",
+        "location": "Aspen, Colorado",
+        "price": 5850,
+        "photos": [
+            "https://media.istockphoto.com/id/1334912013/photo/modern-triangle-forest-house.jpg?s=612x612&w=0&k=20&c=0Cfk52o7qdhhjs6zNd3WppxHvXE3PyxMGVtC9Nl7AgI=",
+            "https://media.istockphoto.com/id/1372009235/photo/view-from-an-open-wooden-deck-at-a-rural-rustic-home-overlooking-fernan-and-coeur-dalene-lake.jpg?s=612x612&w=0&k=20&c=Ck09zGy80dzS-5f9oYV3GHmMlZjAGaYLSHSK9C5Ip0s="
+        ],
+        "placeTypes": "cabins",
+        "totalGuests": 5,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.6
+    },
+    {
+        "reviews": [],
+        "index": 45,
+        "title": "Downtown Luxury Loft",
+        "description": "Luxurious loft in the heart of downtown.",
+        "country": "USA",
+        "location": "Boston, New York  ",
+        "price": 5999,
+        "photos": [
+            "https://media.istockphoto.com/id/1405440389/photo/boston-massachusetts.jpg?s=612x612&w=0&k=20&c=XamSGn3GAu8uG8dGME2TratTbMZ7usCUanAxqmZYIyo=",
+            "https://media.istockphoto.com/id/1286174795/photo/boston-skyline-with-financial-district-and-boston-harbor-at-sunset-usa.jpg?s=612x612&w=0&k=20&c=iRucMGVbrGankEafPla9teu9AOjFOMVcxddVdRR5ptU="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.9
+    },
+    {
+        "reviews": [],
+        "index": 48,
+        "title": "Historic City Center Apartment",
+        "description": "Historic apartment in the heart of the city center.",
+        "country": "GREECE",
+        "location": "Meteora",
+        "price": 5999,
+        "photos": [
+            "https://media.istockphoto.com/id/2136175771/photo/group-of-people-spending-some-great-time-together-on-sailing-vacation.jpg?s=612x612&w=0&k=20&c=PgOYg7sEa2qM9587luYiJszFmUZUE52UJHfEqDLgCk4=",
+            "https://media.istockphoto.com/id/1985126417/photo/young-tourist-woman-walks-through-the-streets-of-mykonos-island-cyclades-greece.jpg?s=612x612&w=0&k=20&c=DrynHnA4mk9-4KL8o2LWInk4ISig8XEzBn8z1xKSLHs="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "averageRating": 4.9
+    },
+    {
+        "title": "Rhine Falls Boat Tour",
+        "description": "Cozy cabin with stunning views of Lake Lucerne and surrounding mountains.\n",
+        "country": "Switzerland",
+        "location": "Lucerne",
+        "price": 5999,
+        "photos": [
+            "https://media.istockphoto.com/id/1780823279/photo/ski-resort-and-lodge-on-klewenalp-mountain-in-swiss-alps-switzerland-popular-ski-slope-and.jpg?s=612x612&w=0&k=20&c=8oFqm06GT9zvyg0q-OiHKeAbDwgrFiDSqMKPLYR42Ls=",
+            "https://media.istockphoto.com/id/1991343971/photo/overhead-cable-car-to-the-top-of-mount-pilatus-in-canton-lucerne-switzerland.jpg?s=612x612&w=0&k=20&c=xSbMqiG9rOp-hDvdT6HOJmKzP9L6AiYa2FQK1JWxz6o="
+        ],
+        "placeTypes": "cabins",
+        "totalGuests": 5,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "reviews": [],
+        "averageRating": 3
+    },
+    {
+        "reviews": [],
+        "index": 46,
+        "title": "Rustic Mountain Chalet",
+        "description": "Charming chalet with panoramic mountain views.",
+        "country": "UK",
+        "location": "Lake Placid, New York",
+        "price": 6300,
+        "photos": [
+            "https://media.istockphoto.com/id/2141051890/photo/green-adirondack-chairs-on-the-shore-of-mirror-lake-in-lake-placid-adirondack-mountains-ny.jpg?s=612x612&w=0&k=20&c=QhUxsFr39-cc2OuROyQOOlynxM0Kdq8VRyW9KGUYEvw=",
+            "https://media.istockphoto.com/id/1925188443/photo/autumnal-leaf-coloured-forests-near-mirror-lake-lake-placid.jpg?s=612x612&w=0&k=20&c=GcLQ3q0mObRVWoNicaNmeT-XESblBlnwR1t8ao0A4TM="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 5,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 33,
+        "title": "Elegant Country Estate",
+        "description": "Grand estate surrounded by picturesque countryside.",
+        "country": "THAILAND",
+        "location": "Bangkok",
+        "price": 7400,
+        "photos": [
+            "https://media.istockphoto.com/id/519434778/photo/elegant-new-villa-with-backyard.jpg?s=612x612&w=0&k=20&c=lPD0YYv-G3o9rjPsHXTCAIGpJwQwJug_fUzAbX_AjSE=",
+            "https://media.istockphoto.com/id/621592148/photo/beautiful-swimming-pool-with-spa-at-an-estate-home.jpg?s=612x612&w=0&k=20&c=-KWyg9MwsuAeBt6AK-lPPElY1t67Nhg280vyK8ICoTo="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 10,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "averageRating": 4.9
+    },
+    {
+        "reviews": [],
+        "index": 1,
+        "title": "Cozy Cabin Retreat",
+        "description": "A charming cabin nestled in the woods for a peaceful getaway.",
+        "country": "FRANCE",
+        "location": "Forest Grove, Oregon",
+        "price": 7500,
+        "photos": [
+            "https://media.istockphoto.com/id/1439438569/photo/new-year-celebration-at-chalet.jpg?s=612x612&w=0&k=20&c=T6-PCsbXTcK7MdrJJFUB4bfRtFTEqg6HAXnhypA0MTE=",
+            "https://media.istockphoto.com/id/1176685058/photo/father-and-daughter-having-fun-by-the-campfire.jpg?s=612x612&w=0&k=20&c=e7tSntp3CLWXs8sgN32oYU1ClAaGjJXJ4nFnxaglyOQ="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "averageRating": 4.5
+    },
+    {
+        "reviews": [],
+        "index": 47,
+        "title": "Seaside Villa Paradise",
+        "description": "Luxury villa with breathtaking seaside views.",
+        "country": "UAE",
+        "location": "Malibu, California",
+        "price": 7800,
+        "photos": [
+            "https://media.istockphoto.com/id/2157410610/photo/relaxing-on-dubai-beach.jpg?s=612x612&w=0&k=20&c=-cvQqZ4s27ClpKzMJhmgP9-lnyLI0PWzcBLdntRf6OI=",
+            "https://media.istockphoto.com/id/1282968192/photo/marjan-island-in-the-emirate-of-ras-al-khaimah-in-uae-aerial-view.jpg?s=612x612&w=0&k=20&c=4rQExzsRfF-OozvAFB1NJxWxArA2wvAAbZIgZExn5PI="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 10,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "averageRating": 5
+    },
+    {
+        "title": "Entire chalet in Nendaz, Switzerland",
+        "description": "Beautiful cottage of 280m2, spread over 3 levels, with sauna and hot tub. The chalet offers an exceptional setting for a mountain holiday. Its location has a breathtaking view of the Rhone Valley and the Swiss mountains.  The property has more than 1000m2 of garden and is located in a very quiet area, while being close to the center of the resort. The cottage has good sunshine in the summer and beautiful views of the sunsets.\n",
+        "country": "Switzerland",
+        "location": "Nendaz",
+        "price": 7900,
+        "photos": [
+            "https://a0.muscache.com/im/pictures/79281c32-bf40-43f7-8402-543b1efee88d.jpg?im_w=960",
+            "https://a0.muscache.com/im/pictures/3c54f19b-cd6f-4c39-82e7-44c65feccced.jpg?im_w=720"
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 10,
+        "bedrooms": 10,
+        "bathrooms": 5,
+        "reviews": [],
+        "averageRating": 4
+    },
+    {
+        "reviews": [],
+        "index": 40,
+        "title": "Lakeside Cabin Hideaway",
+        "description": "Cozy cabin tucked away by a tranquil lake.",
+        "country": "GREECE",
+        "location": "Lake Arrowhead, California",
+        "price": 7999,
+        "photos": [
+            "https://media.istockphoto.com/id/1296851793/photo/giants-causeway-sunset-northern-ireland-uk.jpg?s=612x612&w=0&k=20&c=XjFRbYkjT0J01NZ4waiJqPNw_vAlxYmlEj5RjhSJxlk=",
+            "https://media.istockphoto.com/id/501707966/photo/durdle-door-dorset-beach.jpg?s=612x612&w=0&k=20&c=tBfmNdPTLOO_G6D-cikqzkWqcs3H5m2c1GfZba7OpIM="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 4,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 44,
+        "title": "Cozy Countryside Cottage",
+        "description": "Charming cottage in a serene countryside setting.",
+        "country": "USA",
+        "location": "Carmel Valley, California",
+        "price": 8230,
+        "photos": [
+            "https://media.istockphoto.com/id/2142004729/photo/family-time-by-the-firepit.jpg?s=612x612&w=0&k=20&c=jnvHU5lDGNe8uvoB8RVR41XkyvCewZcUAMapSFIFcYc=",
+            "https://media.istockphoto.com/id/1347050163/photo/luxury-living-room-with-fireplace-in-chalet.jpg?s=612x612&w=0&k=20&c=zgh2tlAx_G-yDe4pG1RwFswLxTykLqeElkalC35bYpQ="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 3,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.8
+    },
+    {
+        "reviews": [],
+        "index": 8,
+        "title": "Charming Cave House",
+        "description": "Unique cave house experience in a beautiful setting.",
+        "country": "GREECE",
+        "location": "Santorini, Greece",
+        "price": 8999,
+        "photos": [
+            "https://media.istockphoto.com/id/1449111177/photo/amoudi-bay-santorini-greece.jpg?s=612x612&w=0&k=20&c=dNHVuBMu2vZMJphK2NRhSIm14unvEclk71dTcgF6Yyg=",
+            "https://media.istockphoto.com/id/157682135/photo/living-room-in-a-turkish-cave.jpg?s=612x612&w=0&k=20&c=iF2xGIKbqjJD-daUIXflQ8Mbdilu1wiic7QZZjNdKSQ="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 8,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "averageRating": 4.7
+    },
+    {
+        "title": "Lauterbrunnen Valley Cottage",
+        "description": "Peaceful cottage in a picturesque valley, surrounded by waterfalls and hiking trails.\n",
+        "country": "Switzerland",
+        "location": "Lauterbrunnen",
+        "price": 9785,
+        "photos": [
+            "https://media.istockphoto.com/id/1490992294/photo/house-in-mountains-lauterbrunnen-staubbach-waterfall-switzerland-mountain-landscape-bern.jpg?s=612x612&w=0&k=20&c=hZV0c_tnKmJWUHzo7aFoXldAi3-0hbLAodkD_bvwhOw=",
+            "https://media.istockphoto.com/id/1343585776/photo/lauterbrunnen-valley-village-of-lauterbrunnen-the-staubbach-fall-and-the-lauterbrunnen-wall.jpg?s=612x612&w=0&k=20&c=fwmRX5JHbKgegmZHxPsoghDb9B2HkqAb3XzM24ggYUo="
+        ],
+        "placeTypes": "countryside",
+        "totalGuests": 12,
+        "bedrooms": 10,
+        "bathrooms": 9,
+        "reviews": [],
+        "averageRating": 5
+    },
+    {
+        "reviews": [],
+        "index": 23,
+        "title": "Modern City Loft",
+        "description": "Sleek and stylish loft apartment in the heart of the city.",
+        "country": "GREECE",
+        "location": "Santorini",
+        "price": 9999,
+        "photos": [
+            "https://media.istockphoto.com/id/1397763152/photo/oia-town-on-santorini-island-greece-traditional-and-famous-houses-and-churches-with-blue.jpg?s=612x612&w=0&k=20&c=2Ozn2ZBMYwcLPoeqsG8Pz9Php1uK6WbnjDOJ-DYyaQM=",
+            "https://media.istockphoto.com/id/171574243/photo/blue-domed-church-along-caldera-edge-in-oia-santorini.jpg?s=612x612&w=0&k=20&c=5HuOmWMGqTYqiKquwayLOPJWmb-UbaoNTAAvpHoAEwM="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 2,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "averageRating": 4.9
+    },
+    {
+        "title": "Zermatt Alpine Chalet",
+        "description": "Charming chalet with views of the Matterhorn, perfect for skiing and hiking.",
+        "country": "Switzerland",
+        "location": "Zermatt",
+        "price": 12999,
+        "photos": [
+            "https://media.istockphoto.com/id/1069135170/photo/village-in-the-alps-in-the-snow-winter-christmas-holidays-in-switzerland.jpg?s=612x612&w=0&k=20&c=iTzOztusoCPsSuxExvtmQddt_nY8f_1B0ZH3Omc8pGU=",
+            "https://media.istockphoto.com/id/1805819266/photo/zermatt-switzerland-with-the-matterhorn.jpg?s=612x612&w=0&k=20&c=s3SnGHtBqqXAbH_6L8WnI99zvm38tRaSLaOPn2-GTN4="
+        ],
+        "placeTypes": "lakefront",
+        "totalGuests": 10,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "reviews": [],
+        "averageRating": 5
+    }
+]
