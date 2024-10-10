@@ -14,6 +14,7 @@ app.use(express.json()) ;
 app.use(cors());
 
 const placeRouter = require('./Router/placerouter');
+const userRouter = require('./Router/userrouter');
 
 const DB_ID = process.env.DB_ID 
 const DB_PASS = process.env.DB_PASS
@@ -39,6 +40,7 @@ app.get('/', (req, res) => {
 })
  
 app.use('/places', placeRouter);
+app.use('/user', userRouter);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

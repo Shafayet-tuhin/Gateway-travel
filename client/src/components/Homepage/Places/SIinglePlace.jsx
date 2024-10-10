@@ -21,12 +21,12 @@ const SIinglePlace = ({ item }) => {
   };
 
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg font-abc2">
+    <div className="relative overflow-hidden rounded-md shadow-md font-abc2">
       {/* Image Carousel */}
       <Slider {...settings}>
         {item.photos.map((photo, index) => (
           <div key={index}>
-            <img src={photo} alt={item.location} className="w-full object-cover lg:h-[17rem]" />
+            <img src={photo} alt={item.location} className="w-full object-cover md:h-[17rem]" />
           </div>
         ))}
       </Slider>
@@ -34,23 +34,23 @@ const SIinglePlace = ({ item }) => {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-100 transition duration-300">
         {/* Title */}
-        <h3 className="text-lg md:text-xl font-bold text-white mb-1 flex gap-2"> <FaLocationDot className='text-orange-400 animate-bounce' />{item.location}</h3>
+        <h3 className="text-xs md:text-2xl font-bold text-white md:mb-1 flex gap-2"> <FaLocationDot className='text-orange-400 animate-bounce' />{item.location}</h3>
 
         {/* Country */}
-        <p className="text-lg font-semibold text-sky-300 mb-2">{item.country}</p>
+        <p className="md:text-md text-xs font-semibold text-sky-300 md:mb-2">{item.country}</p>
 
         {/* Price */}
-        <p className="text-xl md:text-3xl font-extrabold text-yellow-400 mb-2">
-          ${item.price} <span className="text-sm font-normal text-yellow-200">/ Night</span>
+        <p className="text-sm md:text-3xl font-extrabold text-yellow-400 mb-2">
+          ${item.price} <span className="md:text-sm text-xs font-normal text-yellow-200">/ Night</span>
         </p>
 
         {/* Dates */}
-        <p className="text-sm text-gray-300">August 11 - December 26</p>
+        <p className="md:text-sm text-xs text-gray-300 hidden md:block">Aug 11 - Dec 26</p>
 
         {/* Button */}
         <a
           href={`/details/${item.id}`}
-          className="btn bg-yellow-400 font-abc2 text-lg mt-4"
+          className="btn bg-yellow-600 font-abc2 btn-xs md:btn-md text-white md:text-md md:mt-4"
         >
           View Details
         </a>
