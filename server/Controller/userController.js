@@ -57,3 +57,20 @@ exports.getOneUser = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 }
+
+
+exports.updateUser = async (req, res) => {
+    try{
+           const id = req.params.id;
+
+           const {username, email, password, profilePicture} = req.body;
+
+           const result = await User.updateOne({_id: id}, {username, email, password, profilePicture});
+
+           res.status(200).json({message: 'User updated successfully', result});
+    }
+    catch(error){
+        console.error('Error in updateUser:', error.message);
+        res.status(500).json({ error: error.message });
+    }
+}

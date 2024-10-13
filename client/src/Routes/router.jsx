@@ -6,6 +6,8 @@ import Login from '../components/Login&Registration/Login';
 import Registrastion from '../components/Login&Registration/Registrastion';
 import Success from '../components/shared/payment page/Success';
 import Cancel from '../components/shared/payment page/Cancel';
+import DashboardLayout from '../layout/DashboardLayout';
+import DashHome from '../components/DashBoard/DashHome';
 
 export const router = createBrowserRouter([
     {
@@ -31,5 +33,16 @@ export const router = createBrowserRouter([
     },{
       path: "/cancel",
       element: <Cancel/>,
-    }
+    },
+
+     {
+          path: "dashboard",
+          element: <DashboardLayout/>,
+          children:[
+            {
+              path:"home",
+              element: <DashHome/>
+            }
+          ]
+     }
   ]);
