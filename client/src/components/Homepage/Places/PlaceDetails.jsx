@@ -7,10 +7,15 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import Swal from 'sweetalert2';
 import { useSelector } from 'react-redux';
+import { loadStripe } from '@stripe/stripe-js';
+import { useDispatch } from 'react-redux';
+import { addBooking } from '../../../Redux/bookingSlice';
 
 const PlaceDetails = () => {
   const data = useLoaderData();
   const { email } = useSelector((state) => state.user);
+ 
+  const dispatch = useDispatch();
 
   console.log(email)
 
@@ -59,7 +64,40 @@ const PlaceDetails = () => {
       return;
     }
 
-    const totalAmount = calculateTotal(); // Calculate total price based on nights and price per night
+    const stipe = await loadStripe('pk_test_51PZatGRsm6LHkTC74ZBxGtIY87X1MwAfgVcHEShUmrZ052LplogAOAt4xendLf0X8zDksXIjn2mnHtbnTKpVmTJn001wj5dRs4')
+
+    const item = {
+      email: email,
+      placeImg: data.photos[0],
+      placeTitle: data.title,
+      totalPrice: calculateTotal(),
+    }
+
+    const response = await fetch('http://localhost:3000/payment', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(item),
+    })
+
+    const session = await response.json();
+
+    const result = stipe.redirectToCheckout({
+      sessionId: session.id
+    })
+
+    console.log(result)
+
+    if (result.error) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Payment failed',
+        text: result.error.message,
+      });
+    }
+
+    const totalAmount = calculateTotal(); 
 
     const bookingData = {
       email: email,
@@ -71,33 +109,14 @@ const PlaceDetails = () => {
       totalPrice: totalAmount,
     };
 
-    try {
-      // Assuming you have a backend route to handle booking, e.g., /api/bookings
-      const response = await fetch('http://localhost:3000/booking', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(bookingData),
-      });
+    localStorage.setItem('bookingData', JSON.stringify(bookingData));
+    dispatch(addBooking(bookingData));
 
-      if (response.ok) {
-        Swal.fire({
-          icon: 'success',
-          title: 'Booking successful!',
-          text: 'Your booking has been confirmed.',
-        });
-      } else {
-        throw new Error('Booking failed');
-      }
-    } catch (error) {
-      Swal.fire({
-        icon: 'error',
-        title: 'Booking failed',
-        text: error.message,
-      });
-    }
+
   };
+
+
+ 
 
   return (
     <div className="min-h-screen font-abc2">

@@ -4,6 +4,8 @@ import Home from '../layout/Home';
 import PlaceDetails from '../components/Homepage/Places/PlaceDetails';
 import Login from '../components/Login&Registration/Login';
 import Registrastion from '../components/Login&Registration/Registrastion';
+import Success from '../components/shared/payment page/Success';
+import Cancel from '../components/shared/payment page/Cancel';
 
 export const router = createBrowserRouter([
     {
@@ -22,5 +24,12 @@ export const router = createBrowserRouter([
     {
       path: "/registration",
       element: <Registrastion/>,
+    },
+    {
+      path: "/success",
+      element: <Success/>,
+    },{
+      path: "/cancel",
+      element: <Cancel/>,
     }
   ]);
