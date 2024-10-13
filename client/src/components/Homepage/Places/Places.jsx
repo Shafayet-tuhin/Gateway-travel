@@ -21,7 +21,7 @@ const Places = () => {
     const [searchTerm, setSearchTerm] = useState("");
 
     const [Place, loading, refetch] = usePlace();
-    console.log(Place);
+   
 
     // Move this logic to useEffect to avoid dispatching during render
     useEffect(() => {
@@ -31,7 +31,7 @@ const Places = () => {
         }
     }, [loading, Place, dispatch]);
 
-    console.log(currentPage, totalPages, sortBy, filterByCountry, searchTitle);
+    // console.log(currentPage, totalPages, sortBy, filterByCountry, searchTitle);
 
     const handleSortBy = (e) => {
         dispatch(setSortBy(e.target.value));

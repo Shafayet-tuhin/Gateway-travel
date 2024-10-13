@@ -5,7 +5,7 @@ import Footer from '../components/Homepage/Footer/Footer'
 
 const Home = () => {
     return (
-        <div className='container mx-auto mt-6'>
+        <div >
             <Nav />
             <Places />
             <Footer/>

@@ -12,7 +12,8 @@ export const router = createBrowserRouter([
     },
     {
       path:'/details/:id',
-      element: <PlaceDetails/>
+      element: <PlaceDetails/>,
+      loader:({params}) => fetch(`http://localhost:3000/places/${params.id}`)
     },
     {
       path: "/login",

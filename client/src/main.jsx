@@ -9,9 +9,15 @@ import { store } from './Redux/store.js'
 const queryClient = new QueryClient()
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Provider store={store}>
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
-  </Provider>
+  <div className = 'container mx-auto mt-6'>
+    <Provider store={store}>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>
+    </Provider>
+  </div>
 );
+
+
+
+

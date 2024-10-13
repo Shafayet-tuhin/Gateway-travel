@@ -6,6 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaDeaf } from 'react-icons/fa';
 
 const SIinglePlace = ({ item }) => {
+
+  // console.log(item._id)
+
   // Slick settings for the carousel
   const settings = {
     dots: true,               // Show dots navigation
@@ -15,9 +18,8 @@ const SIinglePlace = ({ item }) => {
     slidesToScroll: 1,        // Number of slides to scroll at once
     autoplay: true,           // Auto-play the slides
     autoplaySpeed: Math.random() * 1000 + 4000,    // Time before sliding to next image (in milliseconds)
-    // vertical :true,
+    vertical: Math.random() < 0.5, // Vertical slide) ,
     // fade:true,
-
   };
 
   return (
@@ -49,7 +51,7 @@ const SIinglePlace = ({ item }) => {
 
         {/* Button */}
         <a
-          href={`/details/${item.id}`}
+          href={`/details/${item._id}`}
           className="btn bg-yellow-600 font-abc2 btn-xs md:btn-md text-white md:text-md md:mt-4"
         >
           View Details

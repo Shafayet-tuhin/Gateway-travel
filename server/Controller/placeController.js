@@ -37,8 +37,8 @@ exports.createPlace = async (req, res) => {
             bathrooms
         })
 
-       const result = await Place.create(newPlace);
-         res.status(201).json(result);
+        const result = await Place.create(newPlace);
+        res.status(201).json(result);
 
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -46,41 +46,52 @@ exports.createPlace = async (req, res) => {
 }
 
 exports.getAllPlaces = async (req, res) => {
-     const { page = 1 , limit = 8 , sortBy = 'asc' , filterCountry , searchTitle} = req.query;
-     const query = {} ;
+    const { page = 1, limit = 8, sortBy = 'asc', filterCountry, searchTitle } = req.query;
+    const query = {};
 
-        if(filterCountry){
-            query.country = filterCountry ;
-        }
-        if (searchTitle) {
-            query.location = { $regex: searchTitle, $options: 'i' };  // 'i' option makes it case-insensitive
-        }
+    if (filterCountry) {
+        query.country = filterCountry;
+    }
+    if (searchTitle) {
+        query.location = { $regex: searchTitle, $options: 'i' };  // 'i' option makes it case-insensitive
+    }
 
-        let sort = {} ;
+    let sort = {};
 
-        if(sortBy === 'asc'){
-            sort.price = 1 ;
-        }
-        else if(sortBy === 'desc'){
-            sort.price = -1 ;
-        }
+    if (sortBy === 'asc') {
+        sort.price = 1;
+    }
+    else if (sortBy === 'desc') {
+        sort.price = -1;
+    }
 
-        const skip = (page - 1) * limit ;
+    const skip = (page - 1) * limit;
 
-        console.log( query);
+    console.log(query);
 
-        try {
-            const places = await Place.find(query).sort(sort).limit(Number(limit)).skip(skip);
-            const total = await Place.countDocuments(query);
+    try {
+        const places = await Place.find(query).sort(sort).limit(Number(limit)).skip(skip);
+        const total = await Place.countDocuments(query);
 
-            res.status(200).json({
-                places ,
-                currentPage : Number(page) ,
-                totalPages : Math.ceil(total / limit)
-            });
-        }
-        catch (error) {
-            res.status(500).json({ message: error.message });
-        }
+        res.status(200).json({
+            places,
+            currentPage: Number(page),
+            totalPages: Math.ceil(total / limit)
+        });
+    }
+    catch (error) {
+        res.status(500).json({ message: error.message });
+    }
 
+}
+
+exports.getSinglePlace = async (req, res) => {
+    try {
+        const id = req.params.id;
+        const place = await Place.findById(id);
+        res.status(200).json(place);
+    }
+    catch (error) {
+        res.status(500).json({ message: error.message });
+    }
 }
