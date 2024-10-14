@@ -23,3 +23,16 @@ exports.createBooking = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 };
+
+exports.getBookings = async (req, res) => {
+    try{
+              const email = req.query.email;
+
+        const bookings = await Booking.find({ email });
+
+        res.status(200).json({ bookings });
+    }
+    catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+}

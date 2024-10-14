@@ -8,6 +8,11 @@ import Success from '../components/shared/payment page/Success';
 import Cancel from '../components/shared/payment page/Cancel';
 import DashboardLayout from '../layout/DashboardLayout';
 import DashHome from '../components/DashBoard/DashHome';
+import Mybooking from '../components/DashBoard/Mybooking';
+import GeminiChat from '../components/Homepage/GeminiChat';
+import Dashboard from '../components/DashBoard/Admin/Dashboard';
+import AllUsers from '../components/DashBoard/Admin/AllUsers';
+import AllBookings from '../components/DashBoard/Admin/AllBookings';
 
 export const router = createBrowserRouter([
     {
@@ -30,9 +35,14 @@ export const router = createBrowserRouter([
     {
       path: "/success",
       element: <Success/>,
-    },{
+    },
+    {
       path: "/cancel",
       element: <Cancel/>,
+    },
+    {
+      path:'/chat',
+      element: <GeminiChat/>,
     },
 
      {
@@ -42,6 +52,22 @@ export const router = createBrowserRouter([
             {
               path:"home",
               element: <DashHome/>
+            },
+            {
+              path:"booking",
+              element: <Mybooking/>
+            },
+            {
+              path:'adminDash',
+              element: <Dashboard/>
+            },
+            {
+              path:'alluser',
+              element: <AllUsers/>
+            },
+            {
+              path:'allbooking',
+              element: <AllBookings/>
             }
           ]
      }

@@ -43,7 +43,7 @@ exports.createUser = async (req, res) => {
 
 exports.getOneUser = async (req, res) => {
     try {
-        const email = req.query.email ; // Use req.query.email to get the email
+        const email = req.query.email; // Use req.query.email to get the email
         const result = await User.findOne({ email: email });  // Use findOne() to get a single user
 
         if (!result) {
@@ -60,17 +60,55 @@ exports.getOneUser = async (req, res) => {
 
 
 exports.updateUser = async (req, res) => {
+    try {
+        const id = req.params.id;
+
+        const { username, email, password, profilePicture } = req.body;
+
+        const result = await User.updateOne({ _id: id }, { username, email, password, profilePicture });
+
+        res.status(200).json({ message: 'User updated successfully', result });
+    }
+    catch (error) {
+        console.error('Error in updateUser:', error.message);
+        res.status(500).json({ error: error.message });
+    }
+}
+
+exports.allUsers = async (req, res) => {
+    try {
+        const id = req.params.id;
+        console.log(id)
+
+       const role = await User.findOne({ _id: id })
+
+        if (role.role === 'GUEST') {
+            return res.status(403).json({ error: 'You are not authorized to view all users' });
+        }
+
+        const result = await User.find();
+
+        res.status(200).json(result);
+    }
+    catch (error) {
+        console.error('Error in allUsers:', error.message);
+        res.status(500).json({ error: error.message });
+    }
+}
+
+exports.changeRole = async (req, res) => {
     try{
-           const id = req.params.id;
+        const id = req.params.id;
+        const { role } = req.body;
 
-           const {username, email, password, profilePicture} = req.body;
+       await User.updateOne({ _id: id }, { role });
 
-           const result = await User.updateOne({_id: id}, {username, email, password, profilePicture});
+       const result = await User.find()
 
-           res.status(200).json({message: 'User updated successfully', result});
+         res.status(200).json({ message: 'Role changed successfully', result });
     }
     catch(error){
-        console.error('Error in updateUser:', error.message);
+        console.error('Error in changeRole:', error.message);
         res.status(500).json({ error: error.message });
     }
 }

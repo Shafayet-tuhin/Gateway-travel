@@ -44,7 +44,7 @@ const Success = () => {
             <h1 class="text-5xl text-center font-semibold">Payment Success</h1>
             <img className='w-full md:w-[50%] mx-auto' src="https://i.ibb.co.com/bKw1HFb/Icon-animation-for-Prio-app.gif" alt="" />
             {/* <img className='w-full md:w-[50%] mx-auto' src="https://cdn.dribbble.com/users/1280935/screenshots/6974685/media/ec4c386222b837da0ff6eabec3f59ba3.gif" alt="" /> */}
-            <Link className='mt-8 btn btn-success text-white w-[50%] md:w-[30%] flex mx-auto font-abc2 '>View Bookings</Link>              
+            <Link to='/dashboard/booking' className='mt-8 btn btn-success text-white w-[50%] md:w-[30%] flex mx-auto font-abc2 '>View Bookings</Link>              
         </div>
     )
 }

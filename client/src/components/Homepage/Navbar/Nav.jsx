@@ -9,8 +9,10 @@ import { MdDashboard } from "react-icons/md";
 import { SiGooglegemini } from "react-icons/si";
 
 const Nav = () => {
-    const { id, username, email, profilePicture } = useSelector((state) => state.user);
+    const { id, username, email, profilePicture, role } = useSelector((state) => state.user);
     const dispatch = useDispatch();
+
+    console.log(role)
 
     const handleLogout = () => {
         localStorage.removeItem('user');
@@ -50,10 +52,22 @@ const Nav = () => {
                                 tabIndex={0}
                                 className="menu menu-sm dropdown-content bg-gradient-to-l from-gray-700 to-slate-500 rounded-box text-white z-[1] mt-3 w-52 p-2 shadow font-abc2"
                             >
-                                <li><Link to='/dashboard/home'><ImProfile /> Profile</Link></li>
-                                <li><Link to='/dashboard'><MdDashboard /> Dashboard</Link></li>
-                                <li><Link to='/chat'><SiGooglegemini /> Chat with AI</Link></li>
-                                <li className='btn btn-sm btn-outline btn-error text-base' onClick={handleLogout}>Logout</li>
+                                {
+                                    role === "GUEST" ?
+                                        <>
+                                            <li><Link to='/dashboard/home'><ImProfile /> Profile</Link></li>
+                                            <li><Link to='/dashboard/booking'><MdDashboard /> Bookings</Link></li>
+                                            <li><Link to='/chat'><SiGooglegemini /> Chat with AI</Link></li>
+                                            <li className='btn btn-sm btn-outline btn-error text-base' onClick={handleLogout}>Logout</li>
+                                        </>
+                                        :
+                                        <> <li><Link to='/dashboard/home'><ImProfile /> Profile</Link></li>
+                                            <li><Link to='/chat'><SiGooglegemini /> Chat with AI</Link></li>
+                                            <li><Link to='/dashboard/alluser'><SiGooglegemini /> All User</Link></li>
+                                            <li><Link to='/dashboard/allbooking'><SiGooglegemini /> All Bookings</Link></li>
+                                            <li className='btn btn-sm btn-outline btn-error text-base' onClick={handleLogout}>Logout</li>
+                                        </>
+                                }
                             </ul>
                         </div>
                     </div>

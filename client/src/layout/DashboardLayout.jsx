@@ -1,14 +1,16 @@
 import React from 'react'
 import logo from '../assets/travel.png'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
-import { logOut } from '../Redux/userSlice' 
+import { logOut } from '../Redux/userSlice'
 import { useDispatch } from 'react-redux'
 import Swal from 'sweetalert2'
+import { useSelector } from 'react-redux'
 
 const DashboardLayout = () => {
 
     const dispatch = useDispatch()
     const navigate = useNavigate()
+    const { role } = useSelector(state => state.user)
 
     const handleLogout = () => {
         dispatch(logOut())
@@ -20,7 +22,7 @@ const DashboardLayout = () => {
             title: 'Logged out successfully',
             showConfirmButton: false,
             timer: 1500
-          })
+        })
     }
 
     return (
@@ -45,36 +47,65 @@ const DashboardLayout = () => {
                         </label>
                     </div>
                     <div className="mx-2 flex-1 px-2">
-                    <Link to='/'>
-                    <div className='flex gap-2 items-center justify-center group'>
-                        <img
-                            src={logo}
-                            className="w-12 transform transition-transform duration-1000 group-hover:rotate-180 group-hover:scale-110"
-                            alt="Logo"
-                        />
-                        <span className="lg:text-5xl text-4xl cursor-pointer font-bold font-abc">Gateway</span>
-                    </div>
-                </Link>
+                        <Link to='/'>
+                            <div className='flex gap-2 items-center justify-center group'>
+                                <img
+                                    src={logo}
+                                    className="w-12 transform transition-transform duration-1000 group-hover:rotate-180 group-hover:scale-110"
+                                    alt="Logo"
+                                />
+                                <span className="lg:text-5xl text-4xl cursor-pointer font-bold font-abc">Gateway</span>
+                            </div>
+                        </Link>
                     </div>
                     <div className="hidden flex-none lg:block">
                         <ul className="menu menu-horizontal gap-2">
                             {/* Navbar menu content here */}
-                            <li><Link to='' className='btn btn-outline border-gray-300 font-abc2 text-sm'>My Bookings</Link></li>
-                            <li><Link to='' className='btn btn-outline border-gray-300 font-abc2 text-sm'>HomePage</Link></li>
-                            <li><Link to='' className='btn btn-outline border-gray-300 font-abc2 text-sm'>Chat With AI</Link></li>
-                            <li><Link to='' className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</Link></li>
+                            {
+                                role === "GUEST" ?
+                                    <>
+                                        <li><Link to='/dashboard/home' className='btn btn-outline border-gray-300 font-abc2 text-sm'>My Profile</Link></li>
+                                        <li><Link to='/dashboard/booking' className='btn btn-outline border-gray-300 font-abc2 text-sm'>My Bookings</Link></li>
+                                        <li><Link to='/' className='btn btn-outline border-gray-300 font-abc2 text-sm'>HomePage</Link></li>
+                                        <li><Link to='/chat' className='btn btn-outline border-gray-300 font-abc2 text-sm'>Chat With AI</Link></li>
+                                        <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
+                                    </>
+                                    :
+                                    <>
+                                        <li><Link to='/dashboard/home' className='btn btn-outline border-gray-300 font-abc2 text-sm'>Profile</Link></li>
+                                        <li><Link to='/dashboard/alluser' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Users</Link></li>
+                                        <li><Link to='/dashboard/allbooking' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Bookings</Link></li>
+                                        <li><Link to='/' className='btn btn-outline border-gray-300 font-abc2 text-sm'>HomePage</Link></li>
+                                        <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
+                                    </>
+                            }
                         </ul>
                     </div>
                 </div>
                 {/* Page content here */}
-                <Outlet/>
+                <Outlet />
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu bg-base-200 min-h-full w-80 p-4">
-                    {/* Sidebar content here */}
-                    <li><a>Sidebar Item 1</a></li>
-                    <li><a>Sidebar Item 2</a></li>
+                {
+                                role === "GUEST" ?
+                                    <>
+                                        <li><Link to='/dashboard/home' className='btn btn-outline mb-2'>My Profile</Link></li>
+                                        <li><Link to='/dashboard/booking' className='btn btn-outline mb-2'>My Bookings</Link></li>
+                                        <li><Link to='/' className='btn btn-outline mb-2'>HomePage</Link></li>
+                                        <li><Link to='/chat' className='btn btn-outline mb-2'>Chat With AI</Link></li>
+                                        <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
+                                    </>
+                                    :
+                                    <>
+                                        <li><Link to='/dashboard/home' className='btn btn-outline mb-2'>Profile</Link></li>
+                                        <li><Link to='/dashboard/alluser' className='btn btn-outline mb-2'>All Users</Link></li>
+                                        <li><Link to='/dashboard/allbooking' className='btn btn-outline mb-2'>All Bookings</Link></li>
+                                        <li><Link to='/' className='btn btn-outline mb-2'>HomePage</Link></li>
+                                        <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
+                                    </>
+                            }
                 </ul>
             </div>
         </div>

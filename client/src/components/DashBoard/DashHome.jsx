@@ -146,7 +146,7 @@ const DashHome = () => {
           <div className="relative">
             <MdOutlineEdit
               className={`${
-                edit ? "text-orange-500" : "text-white"
+                edit ? "text-orange-500" : "text-base-content"
               } cursor-pointer text-3xl hover:text-red-500 absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 btn-error`}
               onClick={handleEdit}
             />
