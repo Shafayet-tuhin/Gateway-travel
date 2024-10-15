@@ -92,7 +92,7 @@ const AllUsers = () => {
   // Highcharts configuration for role distribution
   const chartConfig = {
     chart: {
-      type: 'area',
+      type: 'bar',
     },
     title: {
       text: 'User Role Distribution',

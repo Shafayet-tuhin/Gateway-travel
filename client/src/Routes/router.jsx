@@ -13,6 +13,8 @@ import GeminiChat from '../components/Homepage/GeminiChat';
 import Dashboard from '../components/DashBoard/Admin/Dashboard';
 import AllUsers from '../components/DashBoard/Admin/AllUsers';
 import AllBookings from '../components/DashBoard/Admin/AllBookings';
+import PrivateRoute from './PrivateRoute';
+import AdminRoute from './AdminRoute';
 
 export const router = createBrowserRouter([
     {
@@ -42,12 +44,12 @@ export const router = createBrowserRouter([
     },
     {
       path:'/chat',
-      element: <GeminiChat/>,
+      element: <PrivateRoute> <GeminiChat/> </PrivateRoute>,
     },
 
      {
           path: "dashboard",
-          element: <DashboardLayout/>,
+          element: <PrivateRoute> <DashboardLayout/> </PrivateRoute>,
           children:[
             {
               path:"home",
@@ -59,15 +61,15 @@ export const router = createBrowserRouter([
             },
             {
               path:'adminDash',
-              element: <Dashboard/>
+              element: <AdminRoute><Dashboard/></AdminRoute>
             },
             {
               path:'alluser',
-              element: <AllUsers/>
+              element: <AdminRoute> <AllUsers/></AdminRoute>
             },
             {
               path:'allbooking',
-              element: <AllBookings/>
+              element: <AdminRoute> <AllBookings/> </AdminRoute>
             }
           ]
      }

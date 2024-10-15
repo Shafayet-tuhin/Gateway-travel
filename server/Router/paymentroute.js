@@ -12,6 +12,7 @@ router.post('/', async (req, res) => {
                 product_data: {
                     name: placeTitle,
                     images: [placeImg],
+                    description: "Demo Card : 4242 4242 4242 4242, Exp: any future date, CVV: any 3 digits",
                 },
                 unit_amount: totalPrice * 100,
             },

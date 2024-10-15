@@ -12,6 +12,13 @@ exports.createUser = async (req, res) => {
     try {
         const searchEmail = await User.findOne({ email });
 
+        if ( searchEmail && password === 'Login with google'){
+
+            const result = await User.findOne({ email})
+            return res.status(200).json({ user: result, message: 'User fetched successfully' });
+
+        }
+
         if (searchEmail) {
             return res.status(400).json({ error: 'Email already exists!' });
         }

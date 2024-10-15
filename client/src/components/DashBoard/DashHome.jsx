@@ -135,19 +135,35 @@ const DashHome = () => {
       <div className="flex justify-center">
         <div className="flex lg:flex-row flex-col  gap-8  lg:px-16 rounded-3xl shadow-2xl shadow-cyan-300 py-8 items-center">
           <div>
-            <img
-              src={profilePicture}
-              className="w-[12rem] rounded-3xl  shadow-cyan-600 shadow-2xl "
-              alt=""
-            />
+
+            {/* You can open the modal using document.getElementById('ID').showModal() method */}
+            <button onClick={() => document.getElementById('my_modal_3').showModal()}>
+              <img
+                src={profilePicture}
+                className="w-[12rem] rounded-3xl  shadow-cyan-600 shadow-2xl "
+                alt=""
+              />
+            </button>
+            <dialog id="my_modal_3" className="modal">
+              <div className="modal-box">
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+                  <button className="btn btn-circle btn-outline btn-error absolute right-2 top-2 ">✕</button>
+                </form>
+                <img
+                  src={profilePicture}
+                  className="w-[90%] rounded-3xl  shadow-cyan-600 shadow-2xl "
+                  alt=""
+                />
+              </div>
+            </dialog>
 
             <h1 className="text-center font-abc2 mt-8 text-2xl">{role}</h1>
           </div>
           <div className="relative">
             <MdOutlineEdit
-              className={`${
-                edit ? "text-orange-500" : "text-base-content"
-              } cursor-pointer text-3xl hover:text-red-500 absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 btn-error`}
+              className={`${edit ? "text-orange-500" : "text-base-content"
+                } cursor-pointer text-3xl hover:text-red-500 absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 btn-error`}
               onClick={handleEdit}
             />
 
@@ -163,7 +179,7 @@ const DashHome = () => {
                   className="input input-bordered"
                   required
                   disabled
-                  { ...edit && {disabled: false} }
+                  {...edit && { disabled: false }}
                 />
               </div>
               <div className="form-control">
