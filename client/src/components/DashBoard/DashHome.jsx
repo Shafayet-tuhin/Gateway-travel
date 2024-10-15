@@ -43,7 +43,7 @@ const DashHome = () => {
             })
           );
 
-          fetch(`http://localhost:3000/user/${id}`, {
+          fetch(`https://gateway-pink-nine.vercel.app/user/${id}`, {
             method: "PUT",
             headers: {
               "Content-Type": "application/json",
@@ -86,7 +86,7 @@ const DashHome = () => {
         })
       );
 
-      fetch(`http://localhost:3000/user/${id}`, {
+      fetch(`https://gateway-pink-nine.vercel.app/user/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -126,10 +126,10 @@ const DashHome = () => {
 
   return (
     <div>
-      <div className="text-center font-abc lg:text-[5rem] mt-16">
-        <hr className="w-[50%] mx-auto border-2" />
+      <div className="text-center font-abc text-5xl mt-16">
+        <hr className="w-[60%] lg:w-[20%] mx-auto border-2" />
         <h1> Profile Section </h1>
-        <hr className="w-[50%] mx-auto border-2 mb-16" />
+        <hr className="w-[60%] lg:w-[20%] mx-auto border-2 mb-16" />
       </div>
 
       <div className="flex justify-center">
@@ -163,7 +163,7 @@ const DashHome = () => {
           <div className="relative">
             <MdOutlineEdit
               className={`${edit ? "text-orange-500" : "text-base-content"
-                } cursor-pointer text-3xl hover:text-red-500 absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 btn-error`}
+                } cursor-pointer text-3xl hover:text-red-500 absolute top-0 right-0 transform -translate-x-8 lg:translate-x-1/2 -translate-y-1/2 btn-error`}
               onClick={handleEdit}
             />
 

@@ -24,7 +24,7 @@ const Success = () => {
           };
 
 
-        fetch('http://localhost:3000/booking',{
+        fetch('https://gateway-pink-nine.vercel.app/booking',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

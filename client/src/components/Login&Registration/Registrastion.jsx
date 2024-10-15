@@ -52,7 +52,7 @@ const Registration = () => {
                     imageUrl = data.data.url;
 
                     try {
-                        const response = await fetch('http://localhost:3000/user', {
+                        const response = await fetch('https://gateway-pink-nine.vercel.app/user', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',
@@ -73,7 +73,7 @@ const Registration = () => {
 
                         if (data.message === 'User created successfully') {
                             // Dispatch setUser to update Redux store
-                            console.log(data.user);
+                           
                             dispatch(setUser(data.user));
                             Swal.fire({
                                 icon: 'success',
@@ -103,7 +103,7 @@ const Registration = () => {
             }
         } else {
             try {
-                const response = await fetch('http://localhost:3000/user', {
+                const response = await fetch('https://gateway-pink-nine.vercel.app/user', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -123,7 +123,7 @@ const Registration = () => {
                 }
 
                 if (data.message === 'User created successfully') {
-                    console.log(data.user);
+                  
                     dispatch(setUser(data.user));
                     Swal.fire({
                         icon: 'success',

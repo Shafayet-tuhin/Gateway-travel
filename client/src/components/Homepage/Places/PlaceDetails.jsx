@@ -17,7 +17,7 @@ const PlaceDetails = () => {
  
   const dispatch = useDispatch();
 
-  console.log(email)
+
 
   const [currImage, setCurrImage] = useState(data.photos[0]);
   const [checkInDate, setCheckInDate] = useState(null);
@@ -73,7 +73,7 @@ const PlaceDetails = () => {
       totalPrice: calculateTotal(),
     }
 
-    const response = await fetch('http://localhost:3000/payment', {
+    const response = await fetch('https://gateway-pink-nine.vercel.app/payment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -87,7 +87,6 @@ const PlaceDetails = () => {
       sessionId: session.id
     })
 
-    console.log(result)
 
     if (result.error) {
       Swal.fire({

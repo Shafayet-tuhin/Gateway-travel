@@ -23,11 +23,11 @@ const Login = () => {
         const password = e.target.password.value;
 
 
-        fetch(`http://localhost:3000/user?email=${email}`)
+        fetch(`https://gateway-pink-nine.vercel.app/user?email=${email}`)
             .then((res) => res.json())
             .then((data) => {
 
-                console.log(data)
+               
 
                 if (data.error) {
                     const Toast = Swal.mixin({
@@ -49,7 +49,7 @@ const Login = () => {
                 }
 
                 if (data.user.password === password) {
-                    console.log(data.user)
+          
 
                     localStorage.setItem('user', JSON.stringify(data.user));
 
@@ -98,10 +98,10 @@ const Login = () => {
     const handleGoogle = () => {
         signInWithPopup(auth, provider)
             .then((data) => {
-                console.log(data.user)
+           
 
                 if (data.user) {
-                    fetch('http://localhost:3000/user', {
+                    fetch('https://gateway-pink-nine.vercel.app/user', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -117,7 +117,7 @@ const Login = () => {
                         .then((data) => {
                            
                                 // Dispatch setUser to update Redux store
-                                console.log(data.user);
+                             
                                 dispatch(setUser(data.user));
                                 Swal.fire({
                                     icon: 'success',

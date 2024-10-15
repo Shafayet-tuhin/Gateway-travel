@@ -15,62 +15,67 @@ import AllUsers from '../components/DashBoard/Admin/AllUsers';
 import AllBookings from '../components/DashBoard/Admin/AllBookings';
 import PrivateRoute from './PrivateRoute';
 import AdminRoute from './AdminRoute';
+import AllPlaces from '../components/DashBoard/Admin/AllPlaces';
 
 export const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Home/>,
-    },
-    {
-      path:'/details/:id',
-      element: <PlaceDetails/>,
-      loader:({params}) => fetch(`http://localhost:3000/places/${params.id}`)
-    },
-    {
-      path: "/login",
-      element: <Login/>,
-    },
-    {
-      path: "/registration",
-      element: <Registrastion/>,
-    },
-    {
-      path: "/success",
-      element: <Success/>,
-    },
-    {
-      path: "/cancel",
-      element: <Cancel/>,
-    },
-    {
-      path:'/chat',
-      element: <PrivateRoute> <GeminiChat/> </PrivateRoute>,
-    },
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: '/details/:id',
+    element: <PlaceDetails />,
+    loader: ({ params }) => fetch(`https://gateway-pink-nine.vercel.app/places/${params.id}`)
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/registration",
+    element: <Registrastion />,
+  },
+  {
+    path: "/success",
+    element: <Success />,
+  },
+  {
+    path: "/cancel",
+    element: <Cancel />,
+  },
+  {
+    path: '/chat',
+    element: <PrivateRoute> <GeminiChat /> </PrivateRoute>,
+  },
 
-     {
-          path: "dashboard",
-          element: <PrivateRoute> <DashboardLayout/> </PrivateRoute>,
-          children:[
-            {
-              path:"home",
-              element: <DashHome/>
-            },
-            {
-              path:"booking",
-              element: <Mybooking/>
-            },
-            {
-              path:'adminDash',
-              element: <AdminRoute><Dashboard/></AdminRoute>
-            },
-            {
-              path:'alluser',
-              element: <AdminRoute> <AllUsers/></AdminRoute>
-            },
-            {
-              path:'allbooking',
-              element: <AdminRoute> <AllBookings/> </AdminRoute>
-            }
-          ]
-     }
-  ]);
+  {
+    path: "dashboard",
+    element: <PrivateRoute> <DashboardLayout /> </PrivateRoute>,
+    children: [
+      {
+        path: "home",
+        element: <DashHome />
+      },
+      {
+        path: "booking",
+        element: <Mybooking />
+      },
+      {
+        path: 'allplaces',
+        element: <AllPlaces />
+      },
+      {
+        path: 'adminDash',
+        element: <AdminRoute><Dashboard /></AdminRoute>
+      },
+      {
+        path: 'alluser',
+        element: <AdminRoute> <AllUsers /></AdminRoute>
+      },
+      {
+        path: 'allbooking',
+        element: <AdminRoute> <AllBookings /> </AdminRoute>
+      }
+    ]
+  }
+]);

@@ -11,7 +11,7 @@ const AllUsers = () => {
 
   useEffect(() => {
     // Fetch all users
-    fetch(`http://localhost:3000/user/${id}`) // Assuming this endpoint returns all users
+    fetch(`https://gateway-pink-nine.vercel.app/user/${id}`) // Assuming this endpoint returns all users
       .then(res => res.json())
       .then(data => {
         setUsers(data);
@@ -56,7 +56,7 @@ const AllUsers = () => {
         return
        }
 
-    fetch(`http://localhost:3000/user/${userId}`, {
+    fetch(`https://gateway-pink-nine.vercel.app/user/${userId}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ role: newRole }),
@@ -141,7 +141,7 @@ const AllUsers = () => {
                 <select
                   value={user.role}
                   onChange={(e) => handleChangeRole(user._id, e.target.value)}
-                  className=" bg-slate-700 p-2 rounded-md"
+                  className=" bg-base-200 p-2 rounded-md"
                 >
                   <option value="ADMIN">Admin</option>
                   <option value="SUPER_ADMIN">Super Admin</option>

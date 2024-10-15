@@ -8,7 +8,6 @@ export default function AdminRoute({children}) {
     const {role} = useSelector((state) => state.user);
     const navigate = useNavigate();
 
-    console.log(role)
 
     if ( role === 'GUEST'){
         Swal.fire({

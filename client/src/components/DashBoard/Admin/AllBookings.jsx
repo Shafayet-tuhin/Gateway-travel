@@ -9,7 +9,7 @@ const AllBookings = () => {
   const { role } = useSelector((state) => state.user);
 
   useEffect(() => {
-    fetch('http://localhost:3000/booking/all')
+    fetch('https://gateway-pink-nine.vercel.app/booking/all')
       .then((res) => res.json())
       .then((data) => setBookings(data.bookings));
   }, []);
@@ -98,7 +98,7 @@ const AllBookings = () => {
       return;
     }
 
-    fetch(`http://localhost:3000/booking/${bookingId}`, {
+    fetch(`https://gateway-pink-nine.vercel.app/booking/${bookingId}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ status: newStatus }),
@@ -154,7 +154,7 @@ const AllBookings = () => {
         </thead>
         <tbody>
           {bookings.map((booking) => (
-            <tr key={booking._id} className="border-b text-gray-200">
+            <tr key={booking._id} className="border-b text-base-content">
               <td className="py-3 px-6">
                 <img src={booking.placeImg[0]} className="w-12 rounded-3xl h-12" alt="" />
               </td>
@@ -181,7 +181,7 @@ const AllBookings = () => {
                   <select
                     value={booking.status}
                     onChange={(e) => handleStatusChange(booking._id, e.target.value)}
-                    className="bg-slate-500 p-2 rounded-md"
+                    className="bg-base-200 p-2 rounded-md text-base-content"
                   >
                     <option value="pending">Pending</option>
                     <option value="confirmed">Confirmed</option>

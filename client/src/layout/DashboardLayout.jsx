@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../assets/travel.png'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
 import { logOut } from '../Redux/userSlice'
@@ -12,17 +12,33 @@ const DashboardLayout = () => {
     const navigate = useNavigate()
     const { role } = useSelector(state => state.user)
 
+    const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+
+    useEffect(() => {
+        localStorage.setItem("theme", theme);
+        document.querySelector("html").setAttribute("data-theme", theme);
+    }, [theme]);
+
     const handleLogout = () => {
         dispatch(logOut())
         localStorage.removeItem('user')
         navigate('/login')
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Logged out successfully',
+
+        const Toast = Swal.mixin({
+            toast: true,
+            position: "top-end",
             showConfirmButton: false,
-            timer: 1500
-        })
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.onmouseenter = Swal.stopTimer;
+                toast.onmouseleave = Swal.resumeTimer;
+            }
+        });
+        Toast.fire({
+            icon: "success",
+            title: "logged out successfully"
+        });
     }
 
     return (
@@ -66,6 +82,7 @@ const DashboardLayout = () => {
                                     <>
                                         <li><Link to='/dashboard/home' className='btn btn-outline border-gray-300 font-abc2 text-sm'>My Profile</Link></li>
                                         <li><Link to='/dashboard/booking' className='btn btn-outline border-gray-300 font-abc2 text-sm'>My Bookings</Link></li>
+                                        <li><Link to='/dashboard/allplaces' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Places</Link></li>
                                         <li><Link to='/' className='btn btn-outline border-gray-300 font-abc2 text-sm'>HomePage</Link></li>
                                         <li><Link to='/chat' className='btn btn-outline border-gray-300 font-abc2 text-sm'>Chat With AI</Link></li>
                                         <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
@@ -75,6 +92,7 @@ const DashboardLayout = () => {
                                         <li><Link to='/dashboard/home' className='btn btn-outline border-gray-300 font-abc2 text-sm'>Profile</Link></li>
                                         <li><Link to='/dashboard/alluser' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Users</Link></li>
                                         <li><Link to='/dashboard/allbooking' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Bookings</Link></li>
+                                        <li><Link to='/dashboard/allplaces' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Places</Link></li>
                                         <li><Link to='/' className='btn btn-outline border-gray-300 font-abc2 text-sm'>HomePage</Link></li>
                                         <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
                                     </>
@@ -88,24 +106,26 @@ const DashboardLayout = () => {
             <div className="drawer-side">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu bg-base-200 min-h-full w-80 p-4">
-                {
-                                role === "GUEST" ?
-                                    <>
-                                        <li><Link to='/dashboard/home' className='btn btn-outline mb-2'>My Profile</Link></li>
-                                        <li><Link to='/dashboard/booking' className='btn btn-outline mb-2'>My Bookings</Link></li>
-                                        <li><Link to='/' className='btn btn-outline mb-2'>HomePage</Link></li>
-                                        <li><Link to='/chat' className='btn btn-outline mb-2'>Chat With AI</Link></li>
-                                        <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
-                                    </>
-                                    :
-                                    <>
-                                        <li><Link to='/dashboard/home' className='btn btn-outline mb-2'>Profile</Link></li>
-                                        <li><Link to='/dashboard/alluser' className='btn btn-outline mb-2'>All Users</Link></li>
-                                        <li><Link to='/dashboard/allbooking' className='btn btn-outline mb-2'>All Bookings</Link></li>
-                                        <li><Link to='/' className='btn btn-outline mb-2'>HomePage</Link></li>
-                                        <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
-                                    </>
-                            }
+                    {
+                        role === "GUEST" ?
+                            <>
+                                <li><Link to='/dashboard/home' className='btn btn-outline border-gray-300 font-abc2 text-sm'>My Profile</Link></li>
+                                <li><Link to='/dashboard/booking' className='btn btn-outline border-gray-300 font-abc2 text-sm'>My Bookings</Link></li>
+                                <li><Link to='/dashboard/allplaces' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Places</Link></li>
+                                <li><Link to='/' className='btn btn-outline border-gray-300 font-abc2 text-sm'>HomePage</Link></li>
+                                <li><Link to='/chat' className='btn btn-outline border-gray-300 font-abc2 text-sm'>Chat With AI</Link></li>
+                                <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
+                            </>
+                            :
+                            <>
+                                <li><Link to='/dashboard/home' className='btn btn-outline border-gray-300 font-abc2 text-sm'>Profile</Link></li>
+                                <li><Link to='/dashboard/alluser' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Users</Link></li>
+                                <li><Link to='/dashboard/allbooking' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Bookings</Link></li>
+                                <li><Link to='/dashboard/allplaces' className='btn btn-outline border-gray-300 font-abc2 text-sm'>All Places</Link></li>
+                                <li><Link to='/' className='btn btn-outline border-gray-300 font-abc2 text-sm'>HomePage</Link></li>
+                                <li className='btn btn-outline btn-error border-red-300 font-abc2 text-sm' onClick={handleLogout}>Logout</li>
+                            </>
+                    }
                 </ul>
             </div>
         </div>

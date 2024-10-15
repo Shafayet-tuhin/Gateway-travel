@@ -10,7 +10,7 @@ const Mybooking = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/booking?email=${email}`)
+    fetch(`https://gateway-pink-nine.vercel.app/booking?email=${email}`)
       .then(res => res.json())
       .then(data => {
         setBooking(data.bookings);
